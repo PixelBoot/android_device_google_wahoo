@@ -772,6 +772,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     lib-imsvtshim
 
+PRODUCT_PACKAGES += \
+    charger_res_images \
+    product_charger_res_images
+
 # IORap app launch prefetching using Perfetto traces and madvise
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.iorapd.enable=true
