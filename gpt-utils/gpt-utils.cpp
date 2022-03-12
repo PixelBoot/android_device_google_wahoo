@@ -32,6 +32,7 @@
 /******************************************************************************
  * INCLUDE SECTION
  ******************************************************************************/
+#include <stdio.h>
 #include <fcntl.h>
 #include <string.h>
 #include <errno.h>
@@ -45,6 +46,7 @@
 #include <dirent.h>
 #include <inttypes.h>
 #include <linux/kernel.h>
+#include <asm/byteorder.h>
 #include <map>
 #include <vector>
 #include <string>
