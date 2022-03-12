@@ -1,3 +1,10 @@
+# Pixel identification
+ro.build.fingerprint=google/redfin/redfin:12/SP2A.220305.012/8177914:user/release-keys
+ro.product.manufacturer=Google
+ro.product.brand=google
+ro.product.name=redfin
+ro.product.model=Pixel 5
+
 # dex2oat64
 dalvik.vm.dex2oat64.enabled=true
 ro.sys.fw.dex2oat_thread_count=8
