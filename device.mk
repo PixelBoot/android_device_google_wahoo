@@ -469,10 +469,6 @@ PRODUCT_PACKAGES += \
     libwpa_client \
     WifiOverlay
 
-# Active Edge graphic
-PRODUCT_PACKAGES += \
-    ActiveEdgeOverlayPixel
-
 # Connectivity
 PRODUCT_PACKAGES += \
     ConnectivityOverlay
