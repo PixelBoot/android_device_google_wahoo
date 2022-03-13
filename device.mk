@@ -17,6 +17,10 @@
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
+# APEX
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.apex.updatable=true
+
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 PRODUCT_ACTIONABLE_COMPATIBLE_PROPERTY_DISABLE := true
 
