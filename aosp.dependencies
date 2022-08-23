@@ -2,5 +2,9 @@
    {
      "repository": "kernel_google_wahoo",
      "target_path": "kernel/google/wahoo"
+   },
+   {
+     "repository": "android_prebuilts_clang_host_linux-x86_clang-r416183b1",
+     "target_path": "prebuilts/clang/host/linux-x86/clang-r416183b1"
    }
 ]

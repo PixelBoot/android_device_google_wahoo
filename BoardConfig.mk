@@ -36,6 +36,7 @@ BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
 
 # Inline kernel building configs
 TARGET_KERNEL_CLANG_COMPILE := true
+TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/$(HOST_OS)-x86/clang-r416183b1
 TARGET_KERNEL_SOURCE := kernel/google/wahoo
 TARGET_KERNEL_CONFIG := wahoo_defconfig
 TARGET_KERNEL_ARCH := arm64
