@@ -682,6 +682,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Include vndk/vndk-sp/ll-ndk modules
 PRODUCT_PACKAGES += vndk_package
 
+# VNDK
+PRODUCT_COPY_FILES += \
+    prebuilts/vndk/v32/arm64/arch-arm64-armv8-a/shared/vndk-sp/libhidlbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhidlbase-v32.so
+
 PRODUCT_ENFORCE_RRO_TARGETS := framework-res
 
 # Override heap growth limit due to high display density on device
