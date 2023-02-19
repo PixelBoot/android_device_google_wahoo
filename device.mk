@@ -412,6 +412,10 @@ PRODUCT_PACKAGES += \
     libmmjpeg_interface \
     libmmcamera_interface
 
+# Google Camera
+PRODUCT_PACKAGES += \
+    GcamPrebuilt
+
 # Google Camera HAL test libraries in debug builds
 PRODUCT_PACKAGES_ENG += \
     libgoogle_camera_hal_proprietary_tests \
