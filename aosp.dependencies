@@ -5,7 +5,9 @@
   },
   {
     "repository": "android_packages_apps_ElmyraService",
-    "target_path": "packages/apps/ElmyraService"
+    "target_path": "packages/apps/ElmyraService",
+    "branch":"infinity",
+    "remote":"pixelbuilds"
   },
   {
     "repository": "PixelBoot/packages_apps_GoogleCamera",
